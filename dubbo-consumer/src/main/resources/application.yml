@@ -1,0 +1,10 @@
+server:
+  port: 8002
+
+dubbo:
+  application:
+    # 应用名称
+    name: consumer
+  registry:
+    # 注册中心
+    address: multicast://224.5.6.7:1234
