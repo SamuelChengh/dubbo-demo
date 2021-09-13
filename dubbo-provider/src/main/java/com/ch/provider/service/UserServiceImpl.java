@@ -17,6 +17,7 @@ public class UserServiceImpl implements UserService {
     private final static int SIZE = 5;
 
     private static List<User> userList = new ArrayList<>();
+
     static {
         for (int i = 1; i <= SIZE; i++) {
             User user = new User();
